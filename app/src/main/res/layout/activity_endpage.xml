@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".endpage"
+    android:gravity="center"
+    android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/sss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score 10/10"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Restart"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="5dp"
+        android:background="@drawable/blackbg"
+        android:gravity="center"
+        android:layout_marginTop="200dp"
+        android:id="@+id/restart"/>
+
+</LinearLayout>
